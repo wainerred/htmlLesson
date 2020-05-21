@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #333333;
+  padding: 0 0 0 0;
+  margin: 0 0 20px 0;
+  hyphens: auto;
+}
+.paragraph:last-of-type {
+  margin: 0;
+}
+
+.page-header {
+  width: 100%;
+  padding: 50px;
+  background-color: #445161;
+  color: #fff;
+  font-family: Arial;
+}
+.page-header__wrp {
+  width: 458px;
+  float: left;
+}
+.page-header__title {
+  margin: 0 0 50px 0;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+.page-header__list {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  list-style-type: none;
+  line-height: 30px;
+  font-weight: 400;
+}
+.page-header__list-item:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/check-mark.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0 10px 0 0;
+}
+.page-header__img {
+  display: block;
+  width: 469px;
+  min-height: 214px;
+  float: right;
+  color: #000;
+  background-color: #fff;
+}
+
+.about-product {
+  width: 100%;
+  padding: 50px;
+  background-color: #fff;
+  color: #445161;
+  font-family: Arial;
+}
+.about-product__wrp {
+  border: 3px;
+  width: 653px;
+  float: left;
+}
+.about-product__title {
+  font-family: Arial;
+  color: #445161;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.about-product__video {
+  display: block;
+  width: 430px;
+  min-height: 245px;
+  float: right;
+  background-color: #445161;
+}
+
+.dignity {
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+.dignity__title {
+  font-family: Arial;
+  color: #445161;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+}
+.dignity__list {
+  width: 540px;
+  margin: 0 50px 0 0;
+  padding: 0 0 0 46px;
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: column;
+}
+.dignity__list-item {
+  width: 540px;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+.dignity__list-item:before {
+  content: "+";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  left: -46px;
+}
+
+.screenshots {
+  width: 100%;
+  padding: 50px;
+}
+.screenshots__title {
+  font-family: Arial;
+  color: #445161;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+}
+.screenshots__row {
+  display: inline-flex;
+}
+.screenshots__row:last-child .screenshots__figure {
+  margin: 0 50px 0 0;
+}
+.screenshots__figure {
+  margin: 0 50px 30px 0;
+  padding: 0;
+  width: 590px;
+  display: flex;
+}
+.screenshots__img {
+  margin: 0 15px 0 0;
+  padding: 0;
+  min-width: 200px;
+  min-height: 150px;
+  background-color: #445161;
+  color: white;
+}
+.screenshots__caption {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445161;
+}
+
+.reviews {
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+.reviews__title {
+  font-family: Arial;
+  color: #445161;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+}
+.reviews__div {
+  margin: 0 50px 30px 0;
+  padding: 0;
+  width: 590px;
+  display: flex;
+}
+.reviews__paragraph {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  color: #333333;
+  padding: 0;
+  margin: 0 0 6px 0;
+  hyphens: auto;
+}
+.reviews__article-div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 450px;
+  padding: 16px 27px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+.reviews__article-div:before {
+  content: "";
+  display: block;
+  border: 14px solid transparent;
+  border-right: 14px solid #ccc;
+  position: absolute;
+  top: 30px;
+  left: -28px;
+}
+.reviews__ref {
+  text-decoration: none;
+  color: #989898;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.reviews__ref:hover {
+  text-decoration: underline;
+  color: #333333;
+}
+.reviews__avatar {
+  margin-right: 16px;
+  background-color: #445161;
+  border-radius: 50%;
+  color: #fff;
+}
+.reviews__row {
+  display: flex;
+}
+.reviews__row:last-child .reviews__div {
+  margin: 0 50px 0 0;
+}
+
+.prices {
+  width: 100%;
+  padding: 50px;
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prices__title {
+  font-family: Arial;
+  color: #445161;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+
+.card-price {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 300px;
+  padding: 0;
+  border: 4px solid #445162;
+  background: #445162;
+  margin: 0 20px;
+}
+.card-price__title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+}
+.card-price__txt {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 18px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445162;
+}
+.card-price__list {
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #fff;
+  list-style-position: inside;
+  line-height: 24px;
+}
+.card-price__btn {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #445161;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+.card-price__btn:hover {
+  color: #fff;
+  background-color: #445161;
+  border: 1px solid #fff;
+}
+.card-price__btn:active {
+  color: #000;
+  background-color: #fff;
+}
+
+.div-padings {
+  padding: 20px;
+}
