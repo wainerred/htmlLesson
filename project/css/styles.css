@@ -32,6 +32,7 @@ body {
   background-color: #445161;
   color: #fff;
   font-family: Arial;
+  box-sizing: border-box;
 }
 .page-header__wrp {
   width: 458px;
@@ -77,6 +78,7 @@ body {
   background-color: #fff;
   color: #445161;
   font-family: Arial;
+  box-sizing: border-box;
 }
 .about-product__wrp {
   border: 3px;
@@ -103,6 +105,7 @@ body {
   width: 100%;
   padding: 50px;
   background-color: #f5f5f5;
+  box-sizing: border-box;
 }
 .dignity__title {
   font-family: Arial;
@@ -114,13 +117,14 @@ body {
   text-align: center;
 }
 .dignity__list {
-  width: 540px;
-  margin: 0 50px 0 0;
+  width: 500px;
+  margin: 0 30px 0 0;
   padding: 0 0 0 46px;
   list-style-type: none;
   display: inline-flex;
   flex-direction: column;
 }
+
 .dignity__list-item {
   width: 540px;
   margin: 0 0 40px 0;
@@ -188,6 +192,7 @@ body {
   width: 100%;
   padding: 50px;
   background-color: #f5f5f5;
+  box-sizing: border-box;
 }
 .reviews__title {
   font-family: Arial;
@@ -264,6 +269,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-sizing: border-box;
 }
 .prices__title {
   font-family: Arial;
